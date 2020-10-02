@@ -23,7 +23,7 @@ const Bubble = ({children}) => {
 const App = () => {
   const classes = useStyles()
 
-  const [messages, setMessages] = useState(["안녀아셍 버보릅러보릅럽ㄹ을 오늘도 행복해세요", "b"]);
+  const [messages, setMessages] = useState(["도원님 사랑해요", "오도원은 오늘 행운이 가득한 날이다!", "오도가 항상 행복했으면 좋겠어", "오도 우리 사르르 먹으러 갈래?", "오도 보고 싶당", "너 지금 내 생각 하고 있지?", "앞으로 영상 통화는 절대 안 할 거야", "나 귀엽징", "오늘은 현지랑 데이트하는 날!", "현지랑 보드게임 할 사람~", "오늘 밤에 맛있는 거 먹으러 가자", "해운대 갈까? 서면 갈까?"]);
   const [selectedMessage, setSelectedMessage] = useState("유니콘을 눌러주세요");
 
   const handleMessageAdd = (text) => {
